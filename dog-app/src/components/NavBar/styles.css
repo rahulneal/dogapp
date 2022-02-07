@@ -1,0 +1,24 @@
+.title{
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 2.1rem;
+}
+nav{
+    position: relative;
+    box-sizing: border-box;
+    background-color: aqua;
+    height: 9vh;
+    overflow: hidden;
+    padding: 12px 0;
+}
+.search--btn{
+    display: inline;
+    position: absolute;
+    top: 20%;
+    right: 2%;
+    background: green;
+    color: #fff;
+    padding: .4rem;
+    border-radius: 8px;
+    cursor: pointer;
+}

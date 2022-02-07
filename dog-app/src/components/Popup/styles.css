@@ -1,0 +1,89 @@
+.popup--card-page{
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    background: rgba(47, 96, 129, 0.849);
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+.popup--card{
+    background: white;
+    width: 40vw;
+    margin-bottom: 2px;
+}
+
+.popup--title{
+    background: grey;
+    position: relative;
+    padding: .6rem;
+    cursor: pointer;
+}
+
+.popup--title span {
+    position: absolute;
+    top: 20%;
+    border-radius: 6px;
+    right: 1%;
+    background-color: white;
+    color: black;
+    width: 2rem;
+    text-align: center;
+    padding: 2px;
+}
+
+.set--grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 1rem 1rem;
+    column-gap: 4rem;
+    row-gap: 2rem;
+    background: grey;
+}
+
+.image--btn{
+    grid-column: 1/-1 ;
+    margin: 0 10rem;
+    background-color: green;
+    color: white;
+    padding: .7rem;
+    /* width: 25ch; */
+    text-transform: uppercase;
+}
+
+.popUp--inpt{
+    text-transform: capitalize;
+    padding: 5px;
+    outline: none;
+    border: none;
+    background: rgb(182, 176, 176);
+}
+
+.result--cardList{
+    height: 50%;
+    /* width: 100%; */
+    display: flex;
+    flex-wrap: wrap;
+    margin: 8px;
+}
+
+.result--cardList1{
+    display: none
+}
+
+.result--card img{
+    margin-right: 1rem;
+    /* background: blue; */
+    width: 8rem;
+    height: 8rem;
+    background-size: center;
+}
+
+.align--cntr{
+    color: grey;
+    text-align: start;
+    margin: 1rem;
+}

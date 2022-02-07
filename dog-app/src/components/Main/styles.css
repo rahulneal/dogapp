@@ -1,0 +1,25 @@
+.card{
+    width: 20ch;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card img{
+    width: 30ch;
+    height: 20ch;
+    background-position: center;
+
+}
+
+.card--list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5rem 2rem;
+}
+
+.click--navigate{
+    cursor: pointer;
+}
